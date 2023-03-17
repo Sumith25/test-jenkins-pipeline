@@ -48,4 +48,7 @@ pipeline {
     }
 
   }
+  environment {
+    globalVar = 'I am a global Variable.'
+  }
 }
