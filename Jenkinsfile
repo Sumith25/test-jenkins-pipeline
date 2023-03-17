@@ -12,6 +12,7 @@ pipeline {
         stage('Test') {
           steps {
             echo 'This step will run the test suitcases.'
+            echo 'Printing Variable ${globalVar}}'
           }
         }
 
